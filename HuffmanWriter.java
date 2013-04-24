@@ -1,3 +1,8 @@
+/* Author:  Edric Orense
+ * File:    HuffmanWriter.java
+ * Purpose: Handles the writing to file/binary file, and encoding of the huffman tree.
+ */
+
 import java.io.File;
 
 
@@ -7,7 +12,7 @@ public class HuffmanWriter {
 	private TextFile tf;
 	private Node node;
 
-	
+	//Compresses the file, writes out to specified file in binary
 	public void compressFile(String inputFile, String outputFile, String[] codeArray, Node node){
 		File file = new File(outputFile);
 		file.delete();
@@ -34,6 +39,7 @@ public class HuffmanWriter {
 		
 	}
 	
+	//Writes the huffman tree out in binary to the specified file
 	public void serializeTree(Node tree){
 		if (tree == null){
 			return;
@@ -52,6 +58,7 @@ public class HuffmanWriter {
 
 	}
 	
+	//Reads in the inputfile(Huffman encoded file) and writes out the decoded file to outputFile
 	public void decompressFile(String inputFile, String outputFile){
 		File file = new File(outputFile);
 		file.delete();
