@@ -1,3 +1,8 @@
+/* Author:  Edric Orense
+ * File:    ArgumentParser.java
+ * Purpose: Parse arguments sent from the command-line
+ */
+
 import java.util.HashMap;
 
 public class ArgumentParser {
