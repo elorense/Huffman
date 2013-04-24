@@ -1,3 +1,7 @@
+/* Author:  Edric Orense
+ * File:    Driver.java
+ * Purpose: Driver for Huffman encoding
+ */
 
 public class Driver {
 	public static void main(String[] args) {
