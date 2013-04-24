@@ -1,3 +1,8 @@
+/* Author:  Edric Orense
+ * File:    TreeBuilder.java
+ * Purpose: Creates a tree of characters in a file based on their frequency 
+ */
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
